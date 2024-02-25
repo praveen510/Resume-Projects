@@ -1,0 +1,39 @@
+body {
+    background-color: #D680ED;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    text-align: center;
+    background-color: #EDD580;
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    max-width: 400px; /* Limiting width for better readability */
+}
+
+h4 {
+    font-size: 20px; /* Increased font size for better emphasis */
+    color: #6d6d6d; /* A slightly darker text color for better contrast */
+}
+
+button {
+    background-color: #5cb85c; /* Green background */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for better button size */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
